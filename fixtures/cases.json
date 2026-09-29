@@ -1,0 +1,4 @@
+[
+  {"id": "late-shoes", "state": "Shoes arrived two weeks late.", "instructions": "Which team should handle this?", "options": {"shipping": "Late delivery", "billing": "Duplicate charges"}, "expected": "shipping"},
+  {"id": "double-charge", "state": "The customer has two charges for one order.", "instructions": "Which team should handle this?", "options": {"shipping": "Late delivery", "billing": "Duplicate charges"}, "expected": "billing"}
+]

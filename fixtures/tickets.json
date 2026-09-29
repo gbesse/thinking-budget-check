@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {"id": "late-shoes", "state": "Shoes arrived two weeks late.", "instructions": "Which team should handle this?", "options": {"shipping": "Late delivery", "billing": "Duplicate charges"}, "expected": "shipping"},
+    {"id": "double-charge", "state": "The customer has two charges for one order.", "instructions": "Which team should handle this?", "options": {"shipping": "Late delivery", "billing": "Duplicate charges"}, "expected": "billing"}
+  ],
+  "observations": {
+    "late-shoes": {"off": {"choice": "shipping", "latency_ms": 300}, "on": {"choice": "shipping", "latency_ms": 3000}},
+    "double-charge": {"off": {"choice": "shipping", "latency_ms": 320}, "on": {"choice": "billing", "latency_ms": 3400}}
+  }
+}
