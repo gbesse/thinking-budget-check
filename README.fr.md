@@ -12,6 +12,15 @@ python3 compare.py demo --lang fr
 
 Les réponses et latences de la fixture à deux tickets sont fictives ; elle ne mesure pas Jeeves.
 
+**Exemple de sortie**
+
+```text
+Raisonnement activé ou non ?
+Exemple synthétique ; run mesure un vrai endpoint Jeeves.
+off: précision 1/2; latence médiane 310 ms
+on: précision 2/2; latence médiane 3200 ms
+```
+
 ## Projets voisins
 
 - [PostHog/jeeves](https://github.com/PostHog/jeeves) — Son option `options.think` et son API locale compatible Jev sont l’intégration directe.

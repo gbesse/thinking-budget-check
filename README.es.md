@@ -12,6 +12,15 @@ python3 compare.py demo --lang es
 
 Las respuestas y latencias del ejemplo de dos tickets son ficticias; no evalúa Jeeves.
 
+**Ejemplo de salida**
+
+```text
+¿Razonamiento activado o no?
+Ejemplo sintético; run mide un endpoint Jeeves real.
+off: precisión 1/2; latencia mediana 310 ms
+on: precisión 2/2; latencia mediana 3200 ms
+```
+
 ## Proyectos cercanos
 
 - [PostHog/jeeves](https://github.com/PostHog/jeeves) — Su opción `options.think` y su API local compatible con Jev son la integración directa.

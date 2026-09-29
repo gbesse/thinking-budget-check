@@ -12,6 +12,15 @@ python3 compare.py demo --lang en
 
 The offline two-ticket fixture has invented answers and latency; it does not benchmark Jeeves.
 
+**Example output**
+
+```text
+Reasoning on or off?
+Synthetic fixture; run measures a real Jeeves endpoint.
+off: accuracy 1/2; median latency 310 ms
+on: accuracy 2/2; median latency 3200 ms
+```
+
 ## Related projects
 
 - [PostHog/jeeves](https://github.com/PostHog/jeeves) — Its `options.think` switch and local Jev-compatible API are the direct integration.
